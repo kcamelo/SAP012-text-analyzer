@@ -2,10 +2,15 @@
 
 label,
 
-header {
+header{
 
-     
 }
+
+body{
+  Align-items: center;
+  Justify-items: center;
+}
+
 textarea{
   font-size: 0.8rem;
   letter-spacing: 1px;
@@ -19,18 +24,20 @@ textarea {
   border: 1px solid #ccc;
   box-shadow: 1px 1px 1px #999;
 }
-ul.li{
-  border-bottom-width: 10px;
-  background: ;
-  border: #000000;
-  margin: auto;
-  padding: auto;
 
-
+li{
+  color: rgb(40, 40, 40);
+  List-style-type: none;
+  background: #cdcdcd;
+  margin: 5px;
+  padding: 4px;
+  width: 256px;
 }
+
+
 button {
-    background-color: #8de7a7;
-    border-top-right-radius: 0;
+    background-color: #baedc8;
+    border-top-right-radius: 10;
     margin: auto;
     padding: 0%;
     
@@ -52,5 +59,8 @@ footer {
     width: 100%;
     flex-wrap: wrap;
     border-top: 10px solid #fff;
+    align-items: center;
+    Justify-items: center;
+    
 
 }
