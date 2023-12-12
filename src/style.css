@@ -1,10 +1,17 @@
+
+
 label,
-button {
+
+header {
+
+     
+}
+textarea{
   font-size: 0.8rem;
   letter-spacing: 1px;
 }
 
-button {
+textarea {
   padding: 10px;
   max-width: 100%;
   line-height: 1.5;
@@ -12,8 +19,38 @@ button {
   border: 1px solid #ccc;
   box-shadow: 1px 1px 1px #999;
 }
+ul.li{
+  border-bottom-width: 10px;
+  background: ;
+  border: #000000;
+  margin: auto;
+  padding: auto;
+
+
+}
+button {
+    background-color: #8de7a7;
+    border-top-right-radius: 0;
+    margin: auto;
+    padding: 0%;
+    
+    id reset-button;
+}
+
+
 
 label {
   display: block;
   margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto 0;
+    padding: 1rem 0 0.75rem 0;
+    width: 100%;
+    flex-wrap: wrap;
+    border-top: 10px solid #fff;
+
 }

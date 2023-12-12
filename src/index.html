@@ -1,36 +1,37 @@
 <!DOCTYPE html>
-<html>
-
-<!DOCTYPE html>
 <html lang="pt">
 
 <head>
   <meta charset="utf-8">
   <title>Analizador de texto</title>
   <link rel="stylesheet" href="style.css" />
-  <script src="index.js" type="module"></script>
-</head>
 
+</head>
+<center>
+<header><h1>Analizador de texto</h1></header>
 <body>
+  <script src="index.js" type="module"></script>
   <div class="wrapper">
     <div class="content" role="main">
-       <h1  class="title"> Analizador de Texto</h1>
-      <ul>
-        <li data-testid="word-count">Contagem de Palavras</li>
-        <li data-testid="character-count">Contagem de caracteres</li>
-        <li data-testid="character-no-spaces-count">Contagem de caracteres excluindo espaços e sinais de pontuação</li>
-      <li data-testid="number-sum">Soma total de números</li>
-      <li data-testid="word-length-avarage">Comprimento médio das palavras</li>
        
-     <button id="reset-button" rows="5" cols="33"></button> 
-      
- </ul>
-  
+      <ul>
+        
+        <li class="li"  data-testid="word-count">Contagem de Palavras</li>
+        <li class="li"  data-testid="character-count">Contagem de caracteres</li>
+        <li class="li"  data-testid="character-no-spaces-count">Contagem de caracteres excluindo espaços e sinais de pontuação</li>
+        <li class="li"  data-testid="number-count">Contagem de números</li>
+        <li class="li"  data-testid="number-sum">Soma total de números</li>
+        <li class="li"  data-testid="word-length-avarage">Comprimento médio das palavras</li>
+ <br/>
+          <textarea name="user-input" rows="5" cols="33"></textarea>
+        
+        <p> <button id="reset-button">Reiniciar</button></p> 
+        </ul>
 
-<footer><p>Autora: Katharine Akama</p></footer>
+
+<footer><center><p>Autora: Katharine Akama</p></center></footer>
+</center>
 
 
- 
- 
 </body>
 </html>
