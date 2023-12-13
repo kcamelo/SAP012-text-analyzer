@@ -61,6 +61,6 @@ footer {
     border-top: 10px solid #fff;
     align-items: center;
     Justify-items: center;
-    
+    flex-direction: column;
 
 }
