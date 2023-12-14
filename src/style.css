@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap')
 
 
 label,
@@ -10,19 +11,14 @@ label,
 font-face {
   font-family: HK Grotesk;
   font-weight: bold;
-    
-}
-.apresentacao{
-  display: flex;
-  align-items: flex-start ;
+
+    display: flex;
 }
 
-
-
+}
 h1{
 background-color #f87887;
 color1 { #f3d597 }
-font-family: 'Comic Sans MS', sans-serif;
 
 }
 
@@ -36,7 +32,7 @@ body{
     color: #9e6b7c;
   Align-items: center;
   Justify-items: center;
-  font-family: 'Comic Sans MS', sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   box-sizing: content-box;
   width: 100%;
   
@@ -69,7 +65,9 @@ textarea {
   border: 5px solid#f87887; 
   box-shadow: 1px 1px 1px #999;
 }
-
+.content-box {
+  columns: 3 auto;
+}
 li{
   color: rgb(40, 40, 40);
   List-style-type: none;
@@ -77,8 +75,9 @@ li{
   margin: 5px;
   padding: 4px;
   width: 256px;
-  font-family: 'Comic Sans MS', sans-serif;
-}
+  
+  
+  }
 
 
 button {
@@ -86,7 +85,13 @@ button {
     border-top-right-radius: 10;
     margin: auto;
     padding: 0%;
-    font-family: 'Comic Sans MS', sans-serif;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 1.5px 0;
+    text-decoration: none;
     id reset-button;
 }
 
@@ -108,6 +113,6 @@ footer {
     align-items: center;
     Justify-items: center;
     flex-direction: column;
-    font-family: 'Comic Sans MS', sans-serif;
+    
 
 }
