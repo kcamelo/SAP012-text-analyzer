@@ -12,3 +12,5 @@ analyzer.getNumberCount(text)
 analyzer.getNumberSum(text)
 
 analyzer.getAverageWordLength(text)
+
+

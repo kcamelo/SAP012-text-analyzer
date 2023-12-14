@@ -2,15 +2,60 @@
 
 label,
 
-header{
+* {
+  margin: 0;
+  padding: 0;
+}
+
+font-face {
+  font-family: HK Grotesk;
+  font-weight: bold;
+    
+}
+.apresentacao{
+  display: flex;
+  align-items: flex-start ;
+}
+
+
+
+h1{
+background-color #f87887;
+color1 { #f3d597 }
+font-family: 'Comic Sans MS', sans-serif;
 
 }
 
+span{
+  color: #9e6b7c;
+    padding: 10px;
+}
 body{
+  height: 100vh; 
+  background-color: #f3d597;
+    color: #9e6b7c;
   Align-items: center;
   Justify-items: center;
+  font-family: 'Comic Sans MS', sans-serif;
+  box-sizing: content-box;
+  width: 100%;
+  
+  box-sizing: content-box;
+  width: 100%;
+ 
+  padding: 5px;
+  
+  box-sizing: border-box;
+  width: 100%;
+  
+  padding: 5px;
 }
 
+div{
+  background-color: #f3d597;
+  border: auto;
+
+}
 textarea{
   font-size: 0.8rem;
   letter-spacing: 1px;
@@ -21,26 +66,27 @@ textarea {
   max-width: 100%;
   line-height: 1.5;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 5px solid#f87887; 
   box-shadow: 1px 1px 1px #999;
 }
 
 li{
   color: rgb(40, 40, 40);
   List-style-type: none;
-  background: #cdcdcd;
+  background: #92ccb6;
   margin: 5px;
   padding: 4px;
   width: 256px;
+  font-family: 'Comic Sans MS', sans-serif;
 }
 
 
 button {
-    background-color: #baedc8;
+    background-color: #white;
     border-top-right-radius: 10;
     margin: auto;
     padding: 0%;
-    
+    font-family: 'Comic Sans MS', sans-serif;
     id reset-button;
 }
 
@@ -62,5 +108,6 @@ footer {
     align-items: center;
     Justify-items: center;
     flex-direction: column;
+    font-family: 'Comic Sans MS', sans-serif;
 
 }
