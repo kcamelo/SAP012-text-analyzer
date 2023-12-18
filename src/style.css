@@ -1,27 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap')
 
-
-label,
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-font-face {
-  font-family: HK Grotesk;
-  font-weight: bold;
-
-    display: flex;
-}
-
-}
-h1{
-background-color #f87887;
-color1 { #f3d597 }
-
-}
-
 span{
   color: #9e6b7c;
     padding: 10px;
@@ -46,18 +24,20 @@ body{
   
   padding: 5px;
 }
+header {
+  Align-items: center;
+  Justify-items: center;
+  font-family: 'Comfortaa', sans-serif;
+}
 
 div{
   background-color: #f3d597;
   border: auto;
 
 }
-textarea{
+textarea [name="user-input"]{
   font-size: 0.8rem;
   letter-spacing: 1px;
-}
-
-textarea {
   padding: 10px;
   max-width: 100%;
   line-height: 1.5;
@@ -75,24 +55,20 @@ li{
   margin: 5px;
   padding: 4px;
   width: 256px;
-  
-  
+   
   }
 
 
 button {
     background-color: #white;
     border-top-right-radius: 10;
-    margin: auto;
+  
     padding: 0%;
     width: 280px;
-    text-align: center;
-    border-radius: 16px;
+        border-radius: 16px;
     font-size: 24px;
     font-weight: 600;
     padding: 1.5px 0;
-    text-decoration: none;
-    id reset-button;
 }
 
 
