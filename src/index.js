@@ -1,5 +1,5 @@
 import analyzer from './analyzer.js';
-
+// contantes que estou analizando 
 const textarea = document.querySelector('[name="user-input"]'); 
 const button = document.getElementById("reset-button"); 
 const wordCount = document.querySelector('[data-testid="word-count"]'); 
@@ -9,9 +9,11 @@ const wordLengthAverage = document.querySelector('[data-testid="word-length-aver
 const numberCount = document.querySelector('[data-testid="number-count"]'); 
 const numberSum = document.querySelector('[data-testid="number-sum"]'); 
 
+// parte do botão para resetar o que tiver dentro da caixa 
 textarea.addEventListener("keyup", allMetricsUpdate); 
 button.addEventListener("click", clearAllMetricsAndText); 
 
+// quando resetar o botão, reseta todas as métricas
 function clearAllMetricsAndText() {  
   textarea.value = "";
   wordCount.textContent = "Palavras: 0"; 
@@ -21,7 +23,7 @@ function clearAllMetricsAndText() {
   numberSum.textContent = "Soma Números: 0";
   wordLengthAverage.textContent = "Comprimento Médio Palavras: 0";
 }
-
+// escrever na área de caixa 
 textarea.addEventListener('input', allMetricsUpdate);
 
 function allMetricsUpdate() { 

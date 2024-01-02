@@ -1,16 +1,14 @@
-const analyzer = {
+// const analyzer = {
   getWordCount: (text) => {
     const pattern = /[a-zA-Z0-9_]/; 
-    //verificar se há caracteres alfanuméricos no texto. Se o texto estiver vazio ou não contiver caracteres alfanuméricos, retorna 0./
     if (text.trim().length === 0 || !pattern.test(text)) {
       return 0;
     }
     const countWordsInText = text.trim().split(" "); 
-    /*		Remove espaços extras usando text.trim(). Divide o texto em palavras usando split(" "). */
     return countWordsInText.length; 
-    //Retorna o comprimento do array resultante, que representa o número de palavras
-  },
-  getCharacterCount: (text) => {
+  }
+  
+  getCharacterCount (text) => {
     return text.length;
   },
   getCharacterCountExcludingSpaces: (text) => {
@@ -19,7 +17,6 @@ const analyzer = {
       return 0;
     }
     const regex = /[ ,." ']/g; 
-    /*corresponde a espaços, vírgulas, pontos, aspas duplas e simples. Garantira que esses carac, sejam removidos*/
     const totalCharactere = text.replace(regex, "");
     return totalCharactere.length;
   },

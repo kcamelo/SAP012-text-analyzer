@@ -59,12 +59,12 @@ li{
   margin: 5px;
   padding: 4px;
   width: 256px;
+  box
   }
 
 button {
     background-color: white;
-    border-top-right-radius: 10;
-      padding: 0%;
+       padding: 0%;
     width: 280px;
         border-radius: 16px;
     font-size: 24px;
@@ -73,10 +73,6 @@ button {
     
 }
 
-label {
-  display: block;
-  margin-bottom: 10px;
-}
 
 footer {
     display: flex;
