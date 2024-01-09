@@ -1,14 +1,13 @@
-// const analyzer = {
+const analyzer = {
   getWordCount: (text) => {
-    const pattern = /[a-zA-Z0-9_]/; 
+    const pattern = /[a-zA-Z0-9_]/;
     if (text.trim().length === 0 || !pattern.test(text)) {
       return 0;
     }
-    const countWordsInText = text.trim().split(" "); 
-    return countWordsInText.length; 
-  }
-  
-  getCharacterCount (text) => {
+    const countWordsInText = text.trim().split(" ");
+    return countWordsInText.length;
+  },
+  getCharacterCount: (text) => {
     return text.length;
   },
   getCharacterCountExcludingSpaces: (text) => {
@@ -16,7 +15,7 @@
     if (text.trim().length === 0 || !pattern.test(text)) {
       return 0;
     }
-    const regex = /[ ,." ']/g; 
+    const regex = /[ ,." ']/g;
     const totalCharactere = text.replace(regex, "");
     return totalCharactere.length;
   },
@@ -51,7 +50,6 @@
     });
     return qntNumbers;
   },
-
   getNumberSum: (text) => {
     const regex = /[.,!?]$/g;
     const textWithoutPunctuation = text.replace(regex, "");
@@ -63,7 +61,7 @@
           typeof parseFloat(word) === "number") &&
         !isNaN(word)
       ) {
-        numberSum = numberSum + +word; 
+        numberSum = numberSum + +word; //convert a string to a number
       }
     });
     return numberSum;
