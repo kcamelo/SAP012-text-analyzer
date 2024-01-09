@@ -49,20 +49,20 @@ textarea[name="user-input"]{
   box-shadow: 1px 1px 1px #999;
 }
 
-.content-box {
+#content-box {
   columns: 3 auto;
 }
-li{
+
+.li{
   color: rgb(40, 40, 40);
   List-style-type: none;
   background: #92ccb6;
   margin: 5px;
   padding: 4px;
   width: 256px;
-  box
-  }
+    }
 
-button {
+    #reset-button {
     background-color: white;
        padding: 0%;
     width: 280px;
