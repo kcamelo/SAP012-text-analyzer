@@ -61,7 +61,7 @@ const analyzer = {
           typeof parseFloat(word) === "number") &&
         !isNaN(word)
       ) {
-        numberSum = numberSum + +word; //convert a string to a number
+        numberSum = numberSum + +word; //converter a string em um número
       }
     });
     return numberSum;
