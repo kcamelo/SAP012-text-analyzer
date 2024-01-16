@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap')
+* {
+  margin: 0;
+}
+
+header,h1{
+  Justify-items: center;
+    flex-direction: column;
+}
+body{
+  height: 100vh; 
+  background-color: #f3d597;
+    color: #9e6b7c;
+  Align-items: center;
+  justify-content: center;
+  font-family: 'Comfortaa', sans-serif;
+  box-sizing: content-box;
+  width: 100%;
+  box-sizing: content-box;
+  width: 100%;
+   padding: 5px;
+    box-sizing: border-box;
+  width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+  background-color: #f3d597;
+  border: auto;
+
+}
+
+.content-center{
+  display: flex;
+  flex-direction: column;
+ align-items : center;
+}
+
+textarea[name="user-input"]{
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  padding: 10px;
+  width: 50%;
+  line-height: 1.5;
+  border-radius: 10px;
+  border: 10px solid #f87887; 
+  box-shadow: 1px 1px 1px #999;
+}
+
+#content-box {
+  columns: 3 auto;
+}
+
+.li{
+  color: rgb(40, 40, 40);
+  List-style-type: none;
+  background: #92ccb6;
+  margin: 5px;
+  padding: 4px;
+  width: 256px;
+    }
+
+    #reset-button {
+    background-color: white;
+       padding: 0%;
+    width: 280px;
+        border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 1.5px 0;
+    
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto 0;
+    padding: 1rem 0 0.75rem 0;
+    width: 100%;
+    flex-wrap: wrap;
+    border-top: 10px solid #fff;
+    align-items: center;
+    Justify-items: center;
+    flex-direction: column;
+    
+
+}
