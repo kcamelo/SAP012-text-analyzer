@@ -23,7 +23,7 @@ function clearAllMetricsAndText() {
   numberSum.textContent = "Soma Números: 0";
   wordLengthAverage.textContent = "Comprimento Médio Palavras: 0";
 }
-// escrever na área de caixa 
+// capturando o que usuario esta escrevendo
 textarea.addEventListener('input', allMetricsUpdate);
 
 function allMetricsUpdate() { 
